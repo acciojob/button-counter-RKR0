@@ -14,7 +14,7 @@ const [count, setCount] = useState(0);
   return (
     <div>
         <p>Button clicked {count} times</p>
-        <Button onClick={increment}>Click me</Button>
+        <button onClick={increment}>Click me</button>
     </div>
   )
 }
